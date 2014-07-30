@@ -1,0 +1,8 @@
+
+node_modules/
+logs/
+.nbrun
+/app/history/json/
+/app/product/*.json
+npm-debug.log
+.idea

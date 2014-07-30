@@ -1,0 +1,36 @@
+{
+  "name": "mopngo-bluebird",
+  "version": "0.0.1",
+  "description": "Promise-based Mongo DB client API, using the bluebird promise library",
+  "main": "./lib/mongopromise.js",
+  "scripts": {
+    "test": "istanbul test _mocha --report html -- test/*-test*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbelis/mongo-bluebird"
+  },
+  "keywords": [
+    "mongo",
+    "promise",
+    "mongodb"
+  ],
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Jacques Belissent",
+	"email": "jbelis@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "2.2.2",
+    "mongodb": "1.4.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "istanbul": "~0.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/jbelis/mongo-bluebird/issues"
+  },
+  "homepage": "https://github.com/jbelis/mongo-bluebird"
+}
