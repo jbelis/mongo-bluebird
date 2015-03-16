@@ -23,12 +23,12 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "2.2.2",
-    "mongodb": "1.4.7"
+    "mongodb": "1.4.7",
+    "util-extend": "1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "istanbul": "~0.2.4",
-    "util-extend": "1.0.0"
+    "istanbul": "~0.2.4"
   },
   "bugs": {
     "url": "https://github.com/jbelis/mongo-bluebird/issues"
