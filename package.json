@@ -1,6 +1,6 @@
 {
-  "name": "mongo-bluebird",
-  "version": "0.0.6",
+  "name": "mongo-promise-bluebird",
+  "version": "0.0.1",
   "description": "Promise-based Mongo DB client API, using the bluebird promise library",
   "main": "./lib/mongopromise.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbelis/mongo-bluebird"
+    "url": "https://github.com/shawnLiujianwei/mongo-promise-bluebird"
   },
   "keywords": [
     "mongo",
@@ -17,21 +17,21 @@
   ],
   "readmeFilename": "README.md",
   "author": {
-    "name": "Jacques Belissent",
-    "email": "jbelis@gmail.com"
+    "name": "Shawn Liu",
+    "email": "shawn@dotter.me"
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "2.2.2",
-    "mongodb": "2.0.25",
-    "util-extend": "1.0.0"
+    "bluebird": "^2.9.27",
+    "mongodb": "^2.0.25",
+    "util-extend": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
     "istanbul": "~0.2.4"
   },
   "bugs": {
-    "url": "https://github.com/jbelis/mongo-bluebird/issues"
+    "url": "https://github.com/shawnLiujianwei/mongo-promise-bluebird/issues"
   },
-  "homepage": "https://github.com/jbelis/mongo-bluebird"
+  "homepage": "https://github.com/shawnLiujianwei/mongo-promise-bluebird"
 }
