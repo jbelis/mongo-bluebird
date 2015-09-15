@@ -1,6 +1,6 @@
 {
   "name": "mongo-promise-bluebird",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise-based Mongo DB client API, using the bluebird promise library",
   "main": "./lib/mongopromise.js",
   "scripts": {
