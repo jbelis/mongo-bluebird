@@ -1,12 +1,13 @@
 var db = require("../lib/mongopromise").create({
-	db: "history",
-	host: "127.0.0.1",
-	port: 27017
+    db: "ecostudio",
+    host: "127.0.0.1",
+    port: 27017,
+    poolSize:100
 });
 
-var collection = db.collection("errorlog");
+var collection = db.collection("users");
 
-collection.find({ retailer : "groceries.asda.com"}).then(function(data) {
-	console.log(JSON.stringify(data));
+collection.find({}).then(function (data) {
+    console.log(JSON.stringify(data));
 })
 
